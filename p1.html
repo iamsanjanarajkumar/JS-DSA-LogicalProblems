@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA</title>
+  </head>
+  <body>
+    <h2>Find the square root and cube root of the given number</h2>
+    <p>Math.sqrt(n) and Math.cbrt(n)</p>
+    <p>All Positive Numbers</p>
+    <p>Negative Numbers or strings - NaN</p>
+
+    <form autocomplete="off" onsubmit="SubmitHandler(event)">
+      <div>
+        <label for="num">Enter a Input Number</label>
+        <input type="number" id="num" name="num" required />
+      </div>
+      <div>
+        <label for="logic">Choose the operation</label>
+        <select name="Logic" id="logic">
+          <option value="null">Choose Logic</option>
+          <option value="sqrt">Square Root</option>
+          <option value="cbrt">Cube Root</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+      <h1 id="result"></h1>
+    </form>
+
+    <script src="Assets/JS/p1.js"></script>
+  </body>
+</html>

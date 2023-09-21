@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Largest of two Numbers</title>
+  </head>
+  <body>
+    <h2>Finding Largest of Two Numbers</h2>
+    <form action="" method="post" onsubmit="submitHandler(event)">
+      <div>
+        <label for="input1">Enter first Number</label>
+        <input type="number" name="input1" id="input1" />
+      </div>
+
+      <div>
+        <label for="input2">Enter second Number</label>
+        <input type="number" name="input2" id="input2" />
+      </div>
+
+      <div>
+        <label for="logic">Choose a Logic</label>
+        <select name="Logic" id="logic">
+          <option value="null">Choose Logic</option>
+          <option value="condition">Condition</option>
+          <option value="math">Math</option>
+          <option value="operator">Operator</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="Find" />
+      </div>
+
+      <div id="result"></div>
+    </form>
+
+    <script src="Assets/JS/largestOfTwoNos.js"></script>
+  </body>
+</html>

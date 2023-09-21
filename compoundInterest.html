@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest</title>
+</head>
+<body>
+    <h2>Finding Compound Interest</h2>
+    <form autocomplete="off" onsubmit="SubmitHandler(event)">
+      <div>
+        <label for="principle">Enter principle for interest</label>
+        <input type="number" name="principle" id="principle" />
+
+        <label for="time">Enter the duration for the interest </label>
+        <input type="number" name="time" id="time" />
+
+        <label for="rate">Enter the rate for interest</label>
+        <input type="text" name="rate" id="rate" />
+      </div>
+
+      <div >
+    <input type="submit" value="Calculate">
+      </div>
+      <h3 id="result"></h3>
+    </form>
+
+     <script src="Assets/JS/CI.js"></script>
+</body>
+</html>

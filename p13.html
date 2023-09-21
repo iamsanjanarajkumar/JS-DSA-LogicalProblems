@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA</title>
+  </head>
+  <body>
+    <h1>W.A.P Prime Number</h1>
+
+    <div>
+      <form autocomplete="off" onsubmit="submitHandler(event)">
+        <label for="num">Enter a Number</label>
+        <input type="number" name="num" id="num" required />
+
+        <div>
+          <label for="method1">Choose the method </label>
+          <select name="method1" id="method1">
+            <option value="null">Choose the Method</option>
+            <option value="loop">Looping Method</option>
+            <option value="rec">Using Recursion</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="Assets/JS/p13.js"></script>
+  </body>
+</html>

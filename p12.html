@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA</title>
+  </head>
+  <body>
+    <h1>Factorial of a Number ?</h1>
+    <p>!6 = 6 * 5 * 4 * 3 *2 * 1</p>
+
+    <div>
+      <form autocomplete="off" onsubmit="submitHandler(event)">
+        <label for="num">Enter a Number</label>
+        <input type="number" name="num" id="num"  required />
+
+        <div>
+          <label for="method1">Choose the method for Factorial </label>
+          <select name="method1" id="method1">
+            <option value="null">Choose the Method</option>
+            <option value="rec">Recursion Method </option>
+            <option value="for">Using For Loop</option>
+            <option value="while">Using While Loop</option>
+            <option value="ternary">Using Ternary Operator</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div id="result"></div>
+    <script src="Assets/JS/p12.js"></script>
+  </body>
+</html>
